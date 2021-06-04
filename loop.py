@@ -106,9 +106,9 @@ while True:
         time.sleep(2)
         PressKey(VK_RETURN)
         myMouse.position = (432, 1059)
-        myMouse.click(Button.left)
+        myMouse.click(Button.left, 1)
         myMouse.position = (106, 1009)
-        myMouse.click(Button.left)
+        myMouse.click(Button.left, 1)
         count += 1
 
     time.sleep(120)
