@@ -1,9 +1,9 @@
-Open hotkey.py to use the hotkeys(f1 - f6):
+Open hotkey.py to use the hotkeys(f1 - f6) if you do use the f5 hotkey, change Shardmawser to your ign:
     F1: Is it ok if I ask you a few questions first?
     F2: May I know what your favorite anime is?
     F3: Ok, please follow this link to our discord server: discord.gg/hentai.
     F4: Once you're there, hit the blue heart in the clan entrance and answer the bot's questions
-    F5: Under 'Who is the Recruiter that you spoke to?' write 'AverageCheeseEnjoyer' and under 'Which clan do you plan to be joining?' type in 'Waifu'
+    F5: Under 'Who is the Recruiter that you spoke to?' write 'Shardmawser' and under 'Which clan do you plan to be joining?' type in 'Waifu'
     F6: Feel free to message me once you've finished your application or you encounter any problems.
 
 When you want to use the auto send thing, make sure that you're on the recruiting chat already and open loop.py. 
