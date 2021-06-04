@@ -271,8 +271,6 @@ def ReleaseKey(hexKeyCode):
     user32.SendInput(1, ctypes.byref(x), ctypes.sizeof(x))
 
 
-
-
 pag = pyautogui
 myMouse = Controller()
 
@@ -285,11 +283,6 @@ while True:
         time.sleep(2)
         PressKey(scancodes["VK_RETURN"])
         ReleaseKey(scancodes["VK_RETURN"])
-        #time.sleep(0.5)
-        #myMouse.position = (432, 1059)
-        #myMouse.click(Button.left, 1)
-        #myMouse.position = (106, 1009)
-        #myMouse.click(Button.left, 1)
         count += 1
 
     time.sleep(120)
@@ -297,11 +290,7 @@ while True:
     time.sleep(2)
     PressKey(scancodes["VK_RETURN"])
     ReleaseKey(scancodes["VK_RETURN"])
-    time.sleep(0.5)
-    #myMouse.position = (432, 1059)
-    #myMouse.click(Button.left, 1)
-    #myMouse.position = (106, 1009)
-    #myMouse.click(Button.left, 1)
+    
 
 time.sleep(3)
 print(myMouse.position)
