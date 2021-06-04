@@ -7,6 +7,8 @@ import ctypes
 from ctypes import wintypes
 from pynput.mouse import Button, Controller
 
+
+ctypes.windll.kernel32.SetConsoleTitleA("Loop")
 user32 = ctypes.WinDLL('user32', use_last_error=True)
 
 INPUT_MOUSE    = 0

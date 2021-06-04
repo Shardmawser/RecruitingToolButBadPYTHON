@@ -2,6 +2,9 @@ import pynput
 from pynput import mouse
 from pynput.keyboard import Key, Listener
 import pyautogui
+import ctypes
+
+ctypes.windll.kernel32.SetConsoleTitleA("Hotkey")
 
 pag = pyautogui
 
