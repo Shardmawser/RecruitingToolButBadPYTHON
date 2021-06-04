@@ -17,7 +17,7 @@ def on_press(key):
         if k == 'Key.f4':
                 pag.write("Once you're there, hit the blue heart in the clan entrance and answer the bot's questions")
         if k == 'Key.f5':
-                pag.write("Under 'Who is the Recruiter that you spoke to?' write 'Shardmawser' and under 'Which clan do you plan to be joining?' type in 'Waifu'")
+                pag.write("Under 'Who is the Recruiter that you spoke to?' write 'AverageCheeseEnjoyer' and under 'Which clan do you plan to be joining?' type in 'Waifu'")
         if k == 'Key.f6':
                 pag.write("Feel free to message me once you've finished your application or you encounter any problems.")
         
