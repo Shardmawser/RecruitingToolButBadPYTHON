@@ -99,30 +99,26 @@ myMouse = Controller()
 
 count = 0
 while True:
-        
-        if count != 1:
-                time.sleep(5)
-                pag.write(':ducats:{Clan}:ducats: Largest active weeb community in Warframe! | Moon Clan | Research, Dojo, Events! | Join our amazing community! MR 0+')
-                time.sleep(2)
-                PressKey(VK_RETURN)
-                myMouse.position = (432, 1059)
-                myMouse.click(Button.left)
-                myMouse.position = (91, 1019)
-                myMouse.click(Button.left)
-                count += 1
-        time.sleep(120)
+    
+    if count != 1:
+        time.sleep(5)
         pag.write(':ducats:{Waifu Kingdom} is recruiting! (DM me to be recruited!) Rank 10 Moon Clan | Max Research | Dry Dock | Active Helpful Veterans | Giveaways | MR 0+ | REQUIREMENTS: Discord')
         time.sleep(2)
         PressKey(VK_RETURN)
         myMouse.position = (432, 1059)
         myMouse.click(Button.left)
-        myMouse.position = (91, 1019)
+        myMouse.position = (106, 1009)
         myMouse.click(Button.left)
-        
+        count += 1
 
+    time.sleep(120)
+    pag.write(':ducats:{Waifu Kingdom} is recruiting! (DM me to be recruited!) Rank 10 Moon Clan | Max Research | Dry Dock | Active Helpful Veterans | Giveaways | MR 0+ | REQUIREMENTS: Discord')
+    time.sleep(2)
+    PressKey(VK_RETURN)
+    myMouse.position = (432, 1059)
+    myMouse.click(Button.left)
+    myMouse.position = (106, 1009)
+    myMouse.click(Button.left)
 
-
-
-
-            
-
+time.sleep(3)
+print(myMouse.position)
