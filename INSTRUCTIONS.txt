@@ -1,0 +1,12 @@
+Open hotkey.py to use the hotkeys(f1 - f6):
+    F1: Is it ok if I ask you a few questions first?
+    F2: May I know what your favorite anime is?
+    F3: Ok, please follow this link to our discord server: discord.gg/hentai.
+    F4: Once you're there, hit the blue heart in the clan entrance and answer the bot's questions
+    F5: Under 'Who is the Recruiter that you spoke to?' write 'AverageCheeseEnjoyer' and under 'Which clan do you plan to be joining?' type in 'Waifu'
+    F6: Feel free to message me once you've finished your application or you encounter any problems.
+
+When you want to use the auto send thing, make sure that you're on the recruiting chat already and open loop.py. 
+After that, immediately go back to warframe as it will start writing the message after 5 seconds. I advise you not to do anything else while loop.py is open because it will write out the message in any text box regardless if it's in warframe or not.
+
+Just close the loop.py application once you're done recruiting.
