@@ -4,7 +4,7 @@ from pynput.keyboard import Key, Listener
 import pyautogui
 import ctypes
 
-ctypes.windll.kernel32.SetConsoleTitleA("Hotkey")
+ctypes.windll.kernel32.SetConsoleTitle("Hotkey")
 
 pag = pyautogui
 
